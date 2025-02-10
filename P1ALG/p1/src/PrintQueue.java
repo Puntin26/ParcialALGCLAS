@@ -13,7 +13,7 @@ public class PrintQueue {
         if (p =='H') 
             return 1;
 
-        if (p =='M' )
+        if (p =='M')
             return 2;
             
         else
@@ -30,7 +30,7 @@ public class PrintQueue {
         else{
             int i = 0;
 
-            for (; i < cola.size(); i++) {
+            for (; i < cola.size(); i++){
                 PrintJob actual = cola.get(i);
                 int pNuevo =prioridadNum(trabajo.getPrioridad());
                 int pActual =prioridadNum(actual.getPrioridad());
@@ -47,7 +47,7 @@ public class PrintQueue {
         }
     }
 
-    public PrintJob getSiguienteTrabajo() {
+    public PrintJob getSiguienteTrabajo(){
         if (cola.isEmpty()) return null;
         return cola.removeFirst();
     }

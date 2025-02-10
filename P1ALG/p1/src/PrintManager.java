@@ -29,7 +29,7 @@ public class PrintManager {
             String pri = sc.nextLine().trim();
             
             char prioridad = pri.isEmpty() ? 'M': pri.charAt(0);//cons
-            servicio.enviarTrabajo(entUser, prioridad);
+            servicio.enviarTrabajo(entUser,prioridad);
         }
         sc.close();
     }
