@@ -1,5 +1,6 @@
 import java.time.LocalDateTime;
 
+//inicializacion de variables(atriburos) e formato de impresion
 public class PrintJob {
 
     private String usuario;
@@ -26,6 +27,7 @@ public class PrintJob {
         return prioridad;
     }
 
+    //formato de impresion
     public String toString(){
         return usuario+" ("+prioridad+") "+horaEnvio;
     }

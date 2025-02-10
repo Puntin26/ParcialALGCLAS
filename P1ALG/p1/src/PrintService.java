@@ -1,5 +1,6 @@
 import java.time.LocalDateTime;
 
+//hace el servicio de impresion gestionando la adicion y el procesamiento de trabajos. 
 public class PrintService {
 
     private PrintQueue cola;

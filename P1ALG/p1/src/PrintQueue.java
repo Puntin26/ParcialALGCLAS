@@ -2,6 +2,8 @@
 import java.time.LocalDateTime;
 import java.util.LinkedList;
 
+
+//cola de trabajos de impresion  utilizando una estructura adecuada que garantice el orden de prioridad. 
 public class PrintQueue {
     private LinkedList<PrintJob> cola;
 
